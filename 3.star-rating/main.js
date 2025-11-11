@@ -21,3 +21,4 @@ stars.forEach((star, idx) => {
     if (selectedRatingValueText) selectedRatingValueText.textContent = currentTotalSelectedStars;
   });
 });
+
