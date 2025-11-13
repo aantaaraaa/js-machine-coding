@@ -24,3 +24,14 @@ function createPassword() {
 
 const btn = document.querySelector(".container button");
 btn.addEventListener("click", createPassword);
+
+function copyPassword() {
+  passwordBox.select();
+  document.execCommand("copy");
+  alert("Copied.");
+}
+
+const copyIcon = document.getElementById("copyIcon");
+copyIcon.addEventListener("click", copyPassword);
+
+
