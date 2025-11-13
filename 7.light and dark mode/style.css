@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.light{
+    background-color: rgb(243, 88, 219);
+}
+
+body.dark {
+    background-color: #df4141;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container h1 {
+    color: rgb(253, 255, 253);
+}
+
+.container button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+body.light .change-theme-btn {
+    background-color: #000;
+    color: #fff;
+}
+
+body.dark .change-theme-btn {
+    background-color: #fff;
+    color: #000;
+}
