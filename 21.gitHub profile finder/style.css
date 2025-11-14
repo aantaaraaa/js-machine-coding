@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 8px;
+  width: 200px;
+}
+
+.search-btn {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.loading-text {
+  display: none;
+  margin: 15px 0;
+  font-style: italic;
+}
+
+.loading-text.show {
+  display: block;
+}
+
+.github-profile-details img {
+  width: 250px;
+  margin-top: 10px;
+}
+
+.github-profile-details.hide {
+  display: none;
+}
+
+.github-profile-details p {
+  margin: 6px 0;
+  font-size: 16px;
+}
